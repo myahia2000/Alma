@@ -1,0 +1,10 @@
+{
+  "name": "Red Hat Environment",
+  "image": "almalinux:latest",
+  "postCreateCommand": "dnf install -y git curl",
+  "customizations": {
+    "vscode": {
+      "extensions": ["redhat.vscode-yaml"]
+    }
+  }
+}
